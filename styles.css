@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.options-cont{
+    height: 4rem;
+    width: 3.5rem;
+    background-color: #f1f2f6;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+.tools-cont{
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+    background-color: #ced6e0;
+    position: absolute;
+    margin-top: 6.5rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    border: 2px solid black;
+}
