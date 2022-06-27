@@ -57,9 +57,7 @@ upload.addEventListener("click", (e) => {
     let file = input.files[0];
     let url = URL.createObjectURL(file);
 
-    let stickycont = document.createElement("div");
-    stickycont.setAttribute("class", "sticky-cont");
-    stickycont.innerHTML = `
+    stickyTemplateHTML = `
         <div class="header-cont">
             <div class="minimize"></div>
             <div class="remove"></div>
@@ -68,6 +66,29 @@ upload.addEventListener("click", (e) => {
         <img src='${url}'/>
         </div>
     `;
+    createSticky(stickyTemplateHTML);
+  });
+});
+
+sticky.addEventListener("click", (e)=>{
+    let stickyTemplateHTML = `
+    <div class="header-cont">
+            <div class="minimize"></div>
+            <div class="remove"></div>
+        </div>
+        <div class="note-cont">
+        <textarea></textarea>
+        </div>
+    `;
+    createSticky(stickyTemplateHTML);
+})
+
+function createSticky(stickyTemplateHTML)
+{
+    let stickycont = document.createElement("div");
+    stickycont.setAttribute("class", "sticky-cont");
+    stickycont.innerHTML = stickyTemplateHTML;
+
     document.body.appendChild(stickycont);
 
     let minimize = stickycont.querySelector(".minimize");
@@ -81,8 +102,7 @@ upload.addEventListener("click", (e) => {
     stickycont.ondragstart = function () {
       return false;
     };
-  });
-});
+}
 
 function noteActions(minimize, remove, stickycont) {
   remove.addEventListener("click", (e) => {
