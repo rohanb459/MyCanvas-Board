@@ -42,4 +42,51 @@ img{
     padding-bottom: 1rem;
     justify-content: space-around;
     border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pencil-tool-cont{
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+    background-color: #ced6e0;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2px;
+}
+.pencil-color-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.black{
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.blue{
+    background-color: blue;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.eraser-tool-cont{
+    position: absolute;
+    background-color: #ced6e0;
+    top: 14.5rem;
+    left: 8rem;
+    height: 2rem;
+    padding-top: 2px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
