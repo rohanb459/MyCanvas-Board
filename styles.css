@@ -21,7 +21,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-img{
+.tools-cont>img{
     display: block;
     width: 5rem;
     height: 5rem;
