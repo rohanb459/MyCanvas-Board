@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    overflow-y: hidden;
 }
 body{
     margin: 0;
@@ -11,7 +12,7 @@ body{
     width: 3.5rem;
     background-color: #f1f2f6;
     position: absolute;
-    top: 2rem;
+    top: 1.5rem;
     left: 2rem;
     display: flex;
     justify-content: center;
@@ -49,8 +50,8 @@ body{
     width: 7rem;
     background-color: #ced6e0;
     position: absolute;
-    margin-top: 6.5rem;
-    margin-left: 1rem;
+    top: 6rem;
+    left: 1rem;
     border-radius: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
