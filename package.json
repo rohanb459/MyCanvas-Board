@@ -1,0 +1,26 @@
+{
+  "name": "mycanvas-board",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000M\u0000y\u0000C\u0000a\u0000n\u0000v\u0000a\u0000s\u0000-\u0000B\u0000o\u0000a\u0000r\u0000d\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanb459/MyCanvas-Board.git"
+  },
+  "author": "Rohan Bhatia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohanb459/MyCanvas-Board/issues"
+  },
+  "homepage": "https://github.com/rohanb459/MyCanvas-Board#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
