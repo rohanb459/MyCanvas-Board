@@ -79,6 +79,7 @@ function undoRedoCanvas(trackObj) {
 
     let url = undoRedoTracker[track];
     let img = new Image(); // new image reference element
+    canvas.getContext("2d").clearRect(0,0,canvas.width,canvas.height);
     img.src = url;
     img.onload = (e) => {
         tool.drawImage(img, 0, 0, canvas.width, canvas.height);
